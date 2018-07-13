@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">मेरा ऐप</string>
+    <string-array name="country">
+        <item>इंडिया</item>
+        <item>इंडोनेशिया</item>
+        <item>दक्षिण अफ्रीका</item>
+        <item>
+चीन</item>
+    </string-array>
+</resources>

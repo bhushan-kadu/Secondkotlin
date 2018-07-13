@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="id"
+        android:id="@+id/next_et1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:id="@+id/next_et2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="desg"
+        android:id="@+id/next_et3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dept"
+        android:id="@+id/next_et4"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:layout_width="0dp"
+           android:layout_weight="0.5"
+           android:layout_height="wrap_content"
+           android:id="@+id/next_b1"
+           android:text="send data"/>
+
+       <Button
+           android:layout_width="0dp"
+           android:layout_weight="0.5"
+           android:layout_height="wrap_content"
+           android:id="@+id/next_b2"
+           android:text="Recive data"/>
+
+   </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_lv"
+        />
+</LinearLayout>
